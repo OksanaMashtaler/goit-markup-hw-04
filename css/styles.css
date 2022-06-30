@@ -141,11 +141,20 @@ p {
 }
 
 /* -----------hero section------------------ */
+
 .hero-section {
   padding: 200px 0;
-
   color: var(--accent-color);
-  background-color: var(--color-background-secondary);
+  max-width: 1600px;
+  margin: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
