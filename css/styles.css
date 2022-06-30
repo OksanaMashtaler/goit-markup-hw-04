@@ -371,6 +371,10 @@ p {
   display: flex;
 }
 
+.footer-container {
+  display: flex;
+}
+
 .logo-footer {
   font-family: var(--font-family-logo);
   font-weight: 700;
@@ -410,6 +414,11 @@ p {
   color: var(--brand-color);
 }
 
+.footer-social-container {
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
 .form {
   color: var(--accent-color);
   text-transform: uppercase;
@@ -421,16 +430,17 @@ p {
 }
 
 .footer-list-item {
-  fill: var(--accent-color);
   margin-right: 10px;
-  border: 1px solid var(--accent-color);
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
 }
 
 .footer-list-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.footer-icon {
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--accent-color);
 }
 
 .footer-list-item:hover,
@@ -438,6 +448,7 @@ p {
 .footer-list-item:hover .footer-icon,
 .footer-list-item:focus .footer-icon {
   background-color: var(--brand-color);
+  border-radius: 50px;
 }
 
 /* -----------portfolio------------------ */
