@@ -230,7 +230,13 @@ p {
   width: 70px;
   height: 70px;
   margin: 25px 100px;
+}
+
+.overlay {
+  height: 120px;
+  width: 270px;
   background-color: var(--color-backgroubd-team);
+  margin-bottom: 30px;
 }
 /* -----------sections work------------------ */
 
