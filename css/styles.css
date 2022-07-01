@@ -465,14 +465,6 @@ p {
   fill: var(--accent-color);
 }
 
-.social-link:hover,
-.social-link:focus,
-.social-link:hover .footer-icon,
-.social-link:focus .footer-icon {
-  background-color: var(--brand-color);
-  border-radius: 50px;
-}
-
 /* -----------portfolio------------------ */
 /* -----project section------- */
 
