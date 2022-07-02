@@ -227,14 +227,17 @@ p {
 .preference-icon {
   width: 70px;
   height: 70px;
-  margin: 25px 100px;
 }
 
 .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 120px;
   width: 270px;
   background-color: var(--color-backgroubd-team);
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 /* -----------sections work------------------ */
 
@@ -350,7 +353,6 @@ p {
 .client-list-item {
   width: 170px;
   height: 92px;
-  margin-right: 30px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
